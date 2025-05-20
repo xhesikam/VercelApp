@@ -2,5 +2,11 @@
   "extends": [
     "next/core-web-vitals",
     "next/typescript"
-  ]
+  ],
+  "rules": {
+    "no-console": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "react/jsx-key": "warn",
+    "react/react-in-jsx-scope": "off"
+  }
 }
